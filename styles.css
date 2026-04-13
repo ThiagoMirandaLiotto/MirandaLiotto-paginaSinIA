@@ -297,12 +297,9 @@ html {
 }
 
 
-/* Banner de páginas internas */
-.banner-pagina {
-  padding-top: 8rem;
-}
 
-/* Galería */
+
+/*galería */
 .galeria-grilla {
   display: flex;
   flex-wrap: wrap;
@@ -317,11 +314,10 @@ html {
   display: block;
 }
 
-/* Línea de tiempo */
+/* Linea de tiempo */
 .linea-tiempo {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   border-left: 2px solid var(--color-diferenciador);
   padding-left: 2rem;
 }
@@ -329,21 +325,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-.evento-fecha {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--color-diferenciador);
-}
-.evento-contenido h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.evento-contenido p {
-  font-size: 0.9rem;
-  color: var(--color-texto-secundario);
-  line-height: 1.6;
+  padding-bottom: 3rem;
 }
 
 
